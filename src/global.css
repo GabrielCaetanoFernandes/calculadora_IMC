@@ -1,0 +1,34 @@
+body {
+    background-color: var(--corPrincipal);
+    color: var(--corTxt);
+}
+header {
+    display: flex;
+    width: 100%;
+}
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: var(--corPrincipal);
+    border-radius: 6px;
+}
+
+.calculadora {
+    max-width: 660px;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    padding: 16px;
+    justify-content: space-between;
+    background-color: var(--corSecundaria);
+    border-radius: 6px;
+}
+
+:root {
+    --corPrincipal: #2a2929;
+    --corSecundaria: #3d194f9a;
+    --corTxt: #f9fae9d8;
+}

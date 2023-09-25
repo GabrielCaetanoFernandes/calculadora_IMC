@@ -1,0 +1,14 @@
+.btn_calcular {
+    border-radius: 6px;
+    background-color: var(--corTxt);
+    padding: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 4px;
+    border: none;
+}
+
+.btn_calcular:hover {
+    background-color: var(--corPrincipal);
+    color: var(--corTxt);
+}

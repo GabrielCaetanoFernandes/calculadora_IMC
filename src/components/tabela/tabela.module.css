@@ -1,0 +1,17 @@
+.table_b {
+    text-align: center;
+    color: var(--corTxt);
+    font-weight: bold;
+    padding: 4px;
+    width: 50%;
+}
+
+.table_i {
+    border-bottom: 1px solid var(--corTxt);
+    border-collapse: collapse;
+}
+
+.highlight {
+    background-color: var(--corPrincipal);
+    color: var(--corTxt);
+}

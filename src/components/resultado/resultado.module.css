@@ -1,0 +1,4 @@
+.resultado_txt {
+    color: var(--corTxt);
+    font-weight: bold;
+}
