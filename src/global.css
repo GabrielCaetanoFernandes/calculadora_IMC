@@ -26,10 +26,17 @@ header {
     justify-content: space-between;
     background-color: var(--corSecundaria);
     border-radius: 6px;
+
 }
 
 :root {
     --corPrincipal: #2a2929;
     --corSecundaria: #3d194f9a;
     --corTxt: #f9fae9d8;
+}
+
+@media(max-width: 985px){
+    .container, .calculadora {
+        display: block;
+    }
 }
